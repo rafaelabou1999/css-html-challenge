@@ -31,6 +31,24 @@ nav a:hover {
   width: 100%;
 }
 
+.header-img img {
+  object-fit: cover;
+  padding-left: 100px;
+  display: inline-block;
+  border-left: 265px solid white;
+}
+
+.text-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.text-subheader2 {
+  margin-left: 15px;
+  margin-top: 27px;
+}
+
 header nav h2 {
   font-weight: bold;
   font-family: "Lato", sans-serif;

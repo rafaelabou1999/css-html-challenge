@@ -1,0 +1,122 @@
+nav {
+  background-color: rgb(152, 214, 248);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-bottom: 5px solid black;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 18px;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  margin-top: 13px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #000000;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+header nav h2 {
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+  position: relative;
+}
+
+header nav p {
+  position: absolute;
+  top: 45px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+/*-----------TABLE--------*/
+table tr:nth-of-type(even) {
+  background-color: rgb(255, 255, 255);
+}
+
+table tr:nth-of-type(odd) {
+  background-color: rgb(212, 212, 212);
+}
+
+table thead th {
+  background-color: white;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 5px 5px rgb(96, 158, 192);
+}
+
+table,
+td {
+  text-align: center;
+  border: 2px solid rgb(96, 158, 192);
+  padding: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(81, 168, 215);
+  text-shadow: 1px 1px 1px rgb(96, 158, 192);
+}
+
+table th {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px rgb(96, 158, 192);
+  color: rgb(81, 168, 215);
+}
+/*---------IMAGE+TABALE--------*/
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.container .image img {
+  width: 150px;
+  height: 210px;
+  object-fit: cover;
+}
+
+/*-----------TEXT-----------*/
+.big-box {
+  display: flex;
+  padding: 20px 70px;
+}
+
+.big-box .text {
+  width: 30%;
+}
+
+.text {
+  margin: 0 250px;
+}
+
+.table {
+  width: 650px;
+}

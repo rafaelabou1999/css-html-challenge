@@ -1,11 +1,10 @@
 /*----------HEADER----------*/
 nav {
-  margin-left: 264px;
   background-color: rgb(152, 214, 248);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 70%;
+  width: 100%;
   border-bottom: 5px solid black;
 }
 

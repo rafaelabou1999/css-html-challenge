@@ -92,10 +92,16 @@ header nav p {
   text-align: center;
   font-family: "Lato", sans-serif;
   margin-top: 65px;
+  margin-right: 280px;
+}
+
+.main-text1 p {
+  margin-right: 300px;
 }
 .all-cards {
   display: flex;
   width: 1600px;
+  margin-left: 93px;
   justify-content: center;
 }
 
@@ -119,7 +125,7 @@ header nav p {
 .button-container {
   display: inline-block;
   margin-top: 40px;
-  margin-left: 750px;
+  margin-left: 850px;
 }
 
 .button1 {
@@ -141,9 +147,18 @@ header nav p {
   font-weight: bold;
   margin-top: 110px;
   text-align: center;
+  margin-right: 10px;
 }
 
 .map h2 {
+  border-right: 280px solid white;
   text-shadow: 1px 1px 1px rgb(65, 92, 106);
   color: #334954;
+  margin-right: 190px;
+  margin-left: 20px;
+}
+
+.map .frame {
+  margin-right: 50px;
+  margin-left: 30px;
 }

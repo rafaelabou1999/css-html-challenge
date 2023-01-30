@@ -86,20 +86,6 @@ header nav p {
   padding: 20px;
 }
 
-.text-cover2 {
-  background-color: rgb(152, 214, 248);
-  color: rgb(0, 0, 0);
-  border: 3px solid rgb(0, 0, 0);
-  border-radius: 5px 50px;
-  position: absolute;
-  top: 190px;
-  right: 530px;
-  font-family: "Lato", sans-serif;
-  font-size: 10px;
-  line-height: 10px;
-  padding: 28px;
-}
-
 /*---------MAIN--------*/
 .main-text1 {
   text-align: center;

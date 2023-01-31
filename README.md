@@ -1,4 +1,4 @@
-# Clinic---Project
+# POSITION-DISPLAY-CSS
 To do this site, I mostly used flexbox and position.
 --------------------------------------------------
 Project made only by using HTML and CSS

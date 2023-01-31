@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*----------HEADER----------*/
 nav {
   background-color: rgb(152, 214, 248);
@@ -36,10 +41,11 @@ nav a:hover {
   object-fit: cover;
   padding-left: 100px;
   display: inline-block;
-  border-left: 265px solid white;
+  border-left: 20px solid white;
 }
 
 header nav h2 {
+  margin-top: 10px;
   font-weight: bold;
   font-family: "Lato", sans-serif;
   font-size: 25px;
@@ -50,25 +56,25 @@ header nav h2 {
 
 header nav p {
   position: absolute;
-  top: 45px;
+  top: 39px;
   font-weight: bold;
   font-family: "Lato", sans-serif;
 }
 .text-header {
   display: flex;
   flex-direction: row;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 .text-subheader2 {
   margin-left: 15px;
-  margin-top: 27px;
+  margin-top: 15px;
 }
 
 /*-------------COVER-IMAGE + TEXT---------------------*/
 .header-img {
   position: relative;
-  padding: 50px 300px;
+  padding: 50px 210px;
   padding-left: 450px !important;
 }
 
@@ -82,7 +88,7 @@ header nav p {
   right: 520px;
   font-family: "Lato", sans-serif;
   font-size: 10px;
-  line-height: 10px;
+  line-height: 17px;
   padding: 20px;
 }
 
@@ -95,9 +101,11 @@ header nav p {
 }
 
 .main-text1 p {
+  margin-top: 10px;
   margin-right: 300px;
 }
 .all-cards {
+  margin-top: 15px;
   display: flex;
   width: 1600px;
   margin-left: 93px;
@@ -155,9 +163,4 @@ header nav p {
   color: #334954;
   margin-right: 190px;
   margin-left: 20px;
-}
-
-.map .frame {
-  margin-right: 50px;
-  margin-left: 30px;
 }

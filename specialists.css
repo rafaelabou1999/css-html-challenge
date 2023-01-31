@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*----------HEADER----------*/
 nav {
   background-color: rgb(152, 214, 248);
   display: flex;
@@ -35,21 +41,11 @@ nav a:hover {
   object-fit: cover;
   padding-left: 100px;
   display: inline-block;
-  border-left: 265px solid white;
-}
-
-.text-header {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 15px;
-}
-
-.text-subheader2 {
-  margin-left: 15px;
-  margin-top: 27px;
+  border-left: 20px solid white;
 }
 
 header nav h2 {
+  margin-top: 10px;
   font-weight: bold;
   font-family: "Lato", sans-serif;
   font-size: 25px;
@@ -60,9 +56,19 @@ header nav h2 {
 
 header nav p {
   position: absolute;
-  top: 45px;
+  top: 39px;
   font-weight: bold;
   font-family: "Lato", sans-serif;
+}
+.text-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+}
+
+.text-subheader2 {
+  margin-left: 15px;
+  margin-top: 15px;
 }
 
 /*-----------TABLE--------*/

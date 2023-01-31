@@ -87,4 +87,9 @@ header nav p {
 
 .box {
   margin-bottom: 70px;
+  margin-right: 860px;
+  border: 2px solid rgb(65, 92, 106);
+  padding: 18px;
+  border-radius: 10px 10px;
+  box-shadow: 2px 2px rgb(157, 220, 254);
 }

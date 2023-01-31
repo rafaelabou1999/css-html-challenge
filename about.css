@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*----------HEADER----------*/
+nav {
+  background-color: rgb(152, 214, 248);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-bottom: 5px solid black;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 18px;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  margin-top: 13px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #000000;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header-img img {
+  object-fit: cover;
+  padding-left: 100px;
+  display: inline-block;
+  border-left: 20px solid white;
+}
+
+header nav h2 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+  position: relative;
+}
+
+header nav p {
+  position: absolute;
+  top: 39px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+.text-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+}
+
+.text-subheader2 {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+/*------------BODY---------------*/
+.about {
+  font-family: "Lato", sans-serif;
+  margin-left: 340px;
+  margin-top: 30px;
+}
+
+.about h2 {
+  color: rgb(152, 214, 248);
+  border-bottom: 5px solid rgb(157, 220, 254);
+  border-radius: 8px 8px;
+  width: 250px;
+}
+
+.box {
+  margin-bottom: 70px;
+}
